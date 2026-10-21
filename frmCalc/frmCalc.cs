@@ -7,6 +7,7 @@ namespace frmCalc
         {
             InitializeComponent();
         }
+
         bool newOperation = true;
         double firstValue;
         double secondValue;
@@ -20,16 +21,16 @@ namespace frmCalc
                 txtDisplay.Clear();
                 newOperation = false;
 
-            if (btn.Text == ",")
+                if (btn.Text == ",")
                 {
                     var val = txtDisplay.Text.IndexOf(",");
-                    if (val > 0);
-                    return;
+                    if (val > 0)
+                        return;
                 }
+            }
                 txtDisplay.Text += btn.Text;
                 if (btn.Text != ",")
                     firstValue = Convert.ToDouble(btn.Text);
-            }
         
         }
 

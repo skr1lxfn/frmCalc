@@ -245,11 +245,11 @@ namespace frmCalc
             // 
             // txtDisplay
             // 
+            this.txtDisplay.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtDisplay.Location = new System.Drawing.Point(12, 12);
-            this.txtDisplay.Multiline = true;
             this.txtDisplay.Name = "txtDisplay";
             this.txtDisplay.ReadOnly = true;
-            this.txtDisplay.Size = new System.Drawing.Size(290, 79);
+            this.txtDisplay.Size = new System.Drawing.Size(290, 71);
             this.txtDisplay.TabIndex = 20;
             this.txtDisplay.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtDisplay.Click += new System.EventHandler(this.BtnActionNumber);
